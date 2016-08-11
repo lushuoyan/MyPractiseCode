@@ -1,19 +1,18 @@
 package leetcode.one;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class NQueens {
-	public static List<String[]> solveNQueens(int n) {
-		List<String[]> ret = new ArrayList<String[]>();
+	public List<List<String>> solveNQueens(int n) {
+		List<List<String>> result = new ArrayList<List<String>>();
+
 		int[] queenList = new int[n];
-		placeQueen(queenList, 0, n, ret);
-		return ret;
+		placeQueen(queenList, 0, n, result);
+		return result;
 	}
 
-	// 递归回溯8皇后，关键记录下到达了哪一行了
 	public static void placeQueen(int[] queenList, int row, int n,
-			List<String[]> ret) {
+			List<List<String>> ret) {
 		// Base Case, 已经完成任务了
 		if (row == n) {
 			StringBuilder[] sol = new StringBuilder[n];
@@ -29,9 +28,9 @@ public class NQueens {
 			for (int i = 0; i < n; i++) {
 				sol[i].setCharAt(queenList[i], 'Q');
 			}
-			String[] ss = new String[n];
+			ArrayList<String> ss = new ArrayList<String>();
 			for (int i = 0; i < n; i++) {
-				ss[i] = sol[i].toString();
+				ss.add(sol[i].toString());
 			}
 			ret.add(ss);
 			return;
@@ -47,8 +46,6 @@ public class NQueens {
 		}
 	}
 
-	// 判断是否坐标(row,col)的位置是安全的（检查行，列，正反对角线）
-	// queenList里面存放行，列坐标pair，即queenList[row] = col
 	public static boolean isSafe(int[] queenList, int row, int col) {
 		for (int preRow = 0; preRow < row; preRow++) {
 			int preCol = queenList[preRow];
@@ -67,4 +64,5 @@ public class NQueens {
 		}
 		return true;
 	}
+	
 }
