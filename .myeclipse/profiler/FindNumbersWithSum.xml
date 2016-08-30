@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="app_preset_prof_preset_name">FindNumbersWithSum Launch Configuration</entry>
+<entry key="app_preset_prof_preset_filter_s"/>
+<entry key="app_preset_prof_preset_filter_p">ccf.ccf1312.ISBN号码2.*,
+ccf.ccf1312.出现次数最多的数1.*,
+ccf.ccf1312.最大的矩形3.*,
+ccf.ccf1312.最大的矩形4.*,
+ccf.ccf1403.*,
+ccf.ccf1409.One.*,
+ccf.ccf1412.Four.*,
+ccf.ccf1412.One.*,
+ccf.ccf1412.Three.*,
+ccf.ccf1412.Two.*,
+ccf.ccf1503.four.*,
+ccf.ccf1503.one.*,
+ccf.ccf1503.three.*,
+ccf.ccf1503.two.*,
+ccf.ccf1509.*,
+ccf.ccf1512.数位之和1.*,
+ccf.ccf1512.消除类游戏2.*,
+ccf.ccf1512.画图3.*,
+ccf.ccf1512.送货4.*,
+company.网易有道17.GenerateQueue.*,
+company.网易有道17.Shuffle.*,
+component.*,
+leetcode.ProducerConsumer.*,
+leetcode.TreeNode.*,
+leetcode.listnode.*,
+leetcode.one.*,
+leetcode.three.*,
+leetcode.two.*,
+leetcode.undirectedgraph.*,
+leetcode.zero.*,
+newcoder.BAT.*,
+newcoder.atoffer.*,
+newcoder.bat2.lesson2.*,
+newcoder.jingritoutiao.three.*,
+newcoder.jingritoutiao.two.*,
+newcoder.leetcode.*,
+newcoder.wanmeishijie.one.*,
+newcoder.网易2015.one.*,
+newcoder.网易2015.three.*,
+newcoder.网易2015.two.*,
+程序员代码面试指南代码.chapter_1_stackandqueue.*,
+程序员代码面试指南代码.chapter_2_listproblem.*,
+程序员代码面试指南代码.chapter_3_binarytreeproblem.*,
+程序员代码面试指南代码.chapter_4_recursionanddp.*,
+程序员代码面试指南代码.chapter_5_stringproblem.*,
+程序员代码面试指南代码.chapter_7_bitoperation.*,
+程序员代码面试指南代码.chapter_8_arrayandmatrix.*,
+程序员代码面试指南代码.chapter_9_others.*</entry>
+<entry key="app_preset_prof_preset_alloc_p">10</entry>
+<entry key="app_preset_"/>
+<entry key="app_preset_prof_preset_samplingRefreshRate_s">1000</entry>
+<entry key="app_preset_prof_preset_stacks_p">false</entry>
+<entry key="app_preset_prof_preset_roots_p">ccf.ccf1312.ISBN号码2.**
+ccf.ccf1312.出现次数最多的数1.**
+ccf.ccf1312.最大的矩形3.**
+ccf.ccf1312.最大的矩形4.**
+ccf.ccf1403.**
+ccf.ccf1409.One.**
+ccf.ccf1412.Four.**
+ccf.ccf1412.One.**
+ccf.ccf1412.Three.**
+ccf.ccf1412.Two.**
+ccf.ccf1503.four.**
+ccf.ccf1503.one.**
+ccf.ccf1503.three.**
+ccf.ccf1503.two.**
+ccf.ccf1509.**
+ccf.ccf1512.数位之和1.**
+ccf.ccf1512.消除类游戏2.**
+ccf.ccf1512.画图3.**
+ccf.ccf1512.送货4.**
+company.网易有道17.GenerateQueue.**
+company.网易有道17.Shuffle.**
+component.**
+leetcode.ProducerConsumer.**
+leetcode.TreeNode.**
+leetcode.listnode.**
+leetcode.one.**
+leetcode.three.**
+leetcode.two.**
+leetcode.undirectedgraph.**
+leetcode.zero.**
+newcoder.BAT.**
+newcoder.atoffer.**
+newcoder.bat2.lesson2.**
+newcoder.jingritoutiao.three.**
+newcoder.jingritoutiao.two.**
+newcoder.leetcode.**
+newcoder.wanmeishijie.one.**
+newcoder.网易2015.one.**
+newcoder.网易2015.three.**
+newcoder.网易2015.two.**
+程序员代码面试指南代码.chapter_1_stackandqueue.**
+程序员代码面试指南代码.chapter_2_listproblem.**
+程序员代码面试指南代码.chapter_3_binarytreeproblem.**
+程序员代码面试指南代码.chapter_4_recursionanddp.**
+程序员代码面试指南代码.chapter_5_stringproblem.**
+程序员代码面试指南代码.chapter_7_bitoperation.**
+程序员代码面试指南代码.chapter_8_arrayandmatrix.**
+程序员代码面试指南代码.chapter_9_others.**
+</entry>
+<entry key="profiler.settings.instrument.empty.methods">false</entry>
+<entry key="myeclipse.profiling.mode">0</entry>
+<entry key="profiler.settings.istrument.getter.setter.methods">false</entry>
+<entry key="app_preset_prof_preset_samplingRate_s">100</entry>
+<entry key="app_preset_prof_preset_filterMode_s">true</entry>
+<entry key="app_preset_prof_preset_selector"/>
+<entry key="app_preset_prof_preset_refreshRate_s">1000</entry>
+<entry key="app_preset_prof_preset_runnables_p">true</entry>
+<entry key="app_preset_prof_preset_filterMode_p">false</entry>
+<entry key="app_preset_prof_preset_memoryMode_p">true</entry>
+</properties>
