@@ -46,10 +46,11 @@ public class Problem_31_KMPAlgorithm {
 	}
 
 	public static void main(String[] args) {
-		String str = "abcabcababaccc";
-		String match = "ababa";
-		System.out.println(getIndexOf(str, match));
-
+		Integer i1=127,i2=127,i3=128,i4=128;
+		System.out.println(i1==i2);
+		System.out.println(i1.equals(i2));
+		System.out.println(i3==i4);
+		System.out.println(i3.equals(i4));
 	}
 
 }
